@@ -1,0 +1,52 @@
+
+#personalInfoForm{
+  display:block;
+  text-align: center;
+  margin-top:100px;
+  font-size: 16px;
+}
+#flag{
+  width: 100%;
+  float: left;
+  position: absolute;
+}
+#header p{
+  display: block;
+  text-align: center;
+  margin: 50px 60px 20px 60px;
+  padding-bottom: 10px;
+  border-bottom:#CC3333 solid 5px;
+  color:#CC3333;
+  font-size: 28px;
+}
+.inputView{
+  margin-top:20px;
+}
+.inputView label{
+  display: inline-block;
+  vertical-align: bottom;
+  padding-top:5px;
+  width:20%;
+}
+.inputView input{
+  margin-left: 20px;
+  vertical-align: bottom;
+  display:inline-block;
+  border-bottom:black solid thin;
+  width:40%;
+  text-align: center;
+}
+#submitButton{
+  margin-top:30px;
+  width:70%;
+  background-color:#CC3333;
+  border-radius: 10px;
+  color:white;
+}
+#imgBox{
+  text-align: center;
+}
+#logo1{
+  height: 45px;
+  width: 300px;
+}

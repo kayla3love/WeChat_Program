@@ -1,0 +1,29 @@
+<view id="questionsBox" class="{{displayAll?'show':'hide'}}">
+  <view id="imgBox">
+    <image id="logo1" src="../../img/3.png"></image>
+  </view>
+  <view id="title">
+    <p id="item">题目 {{currentIndex}} ({{showView?'单选':'多选'}})</p>
+    <p id="mainTitle">{{currentQuestion}}({{selection}})</p>
+  </view>
+
+  <form id="options" bindsubmit='submit'>
+    <radio-group class="{{showView?'show':'hide'}}" bindchange="radioChange">
+      <label class="radio" wx:for="{{items}}" wx:key="key" > 
+        <p><radio value="{{item.name}}" color="#CC3333" checked="{{item.checked}}" disabled="{{disabled}}"/>{{item.value}}</p>
+      </label>
+    </radio-group>
+
+    <checkbox-group class="{{showView?'hide':'show'}}" bindchange="checkboxChange">
+      <label class="checkBox" wx:for="{{items}}" wx:key="key" >
+      <p><checkbox value="{{item.name}}" color="#CC3333" checked="{{item.checked}}" disabled="{{disabled}}"/>{{item.value}}</p>
+      </label>
+    </checkbox-group>
+
+      <p id="clock"><block wx:if="{{time!='已经截止'}}">剩余时间：{{time}}</block></p>
+      
+      <p id="resultMessage">{{message}}</p>
+
+      <button id='nextButton' form-type='submit'>{{next}}</button>
+  </form>
+</view>

@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/questionAndAnswer/questionAndAnswer",
+    "pages/showResult/showResult"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "好好学'习'",
+    "navigationBarTextStyle":"black"
+  }
+}

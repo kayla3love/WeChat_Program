@@ -1,0 +1,12 @@
+<view>
+    <view id="resultPage" class="{{display?'show':'hide'}}">
+      <p id="result">{{result}}</p>
+      <p class="detailResult">总分{{totalCount}}</p>
+      <p class="detailResult">(正确/题目总数）{{correctOnes}}/{{totalNum}}</p>
+      <button id='finishButton' bindtap='finish'>完成</button>
+    </view>
+    <view id="imgBox">
+      <image id="logo1" src="../../img/3.png"></image>
+    </view>
+  <loading hidden="{{hidden}}">计算结果中</loading>
+</view>

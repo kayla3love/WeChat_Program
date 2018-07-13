@@ -1,0 +1,23 @@
+<view id = "loginView">
+  <view id = "header">
+    <p>好好学"习"</p>
+  </view>
+    <view id="imgBox">
+    <image id="logo1" src="../../img/3.png"></image>
+  </view>
+  <form id = "personalInfoForm" bindsubmit='loginSubmit'>
+    <view class="inputView">
+      <label>姓名</label>
+      <input name='name' bindinput='nameInput' value='{{name}}'></input>
+    </view>
+    <view class="inputView">
+      <label>学号</label>
+      <input type='number' name='schoolNumber' value='{{schoolNumber}}'bindinput='schoolNumberInput'></input>
+    </view>
+    <view class="inputView">
+      <label>手机</label>
+      <input type='number'name='contact' bindinput='contactInput' value='{{contact}}'></input>
+    </view>
+    <button id='submitButton' form-type='submit'>开始答题</button>
+  </form>
+</view>

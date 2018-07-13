@@ -1,0 +1,42 @@
+p{
+  font-size: 16px;
+  margin-top:10px;
+  margin-left:20px;
+  margin-right: 20px;
+  line-height: 2;
+  display:block;
+}
+#title{
+  margin-top:20px;
+}
+#item{
+  display: block;
+}
+#clock{
+  text-align: right;
+}
+#nextButton{
+  margin-top:20px;
+  margin-bottom: 10px;
+  width:90%;
+  background-color:#CC3333;
+  border-radius: 10px;
+  color:white;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: show;
+}
+#imgBox{
+  text-align: center;
+  margin-top:20px;
+}
+#logo1{
+  height: 35px;
+  width: 230px;
+}
+#resultMessage{
+  height: 10px;
+}
